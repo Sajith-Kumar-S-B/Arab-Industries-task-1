@@ -1,0 +1,12 @@
+.interface{
+  height: 100vh;
+  background-color: #e3f1fe;
+}
+
+.interface .inter-content{
+      display: grid;
+      grid-template-columns: 15% auto;
+      padding: 2rem 2rem 0 0;
+      height: 86%;
+     
+}

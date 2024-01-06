@@ -1,0 +1,47 @@
+.left{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left .user{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+
+}
+
+.left .user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+
+}
+
+
+.left .options{
+    width: 90%;
+    margin-right: auto;
+}
+
+.left .options ul{
+    padding: 1rem 0;
+}
+
+.left .options ul li{
+list-style: none;
+background-color: #b1e7ff;
+padding: 1rem 2rem;
+border-radius: 0 .5rem .5rem 0;
+margin-bottom: 1rem;
+width: 100%;
+
+}
