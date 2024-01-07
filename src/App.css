@@ -1,12 +1,37 @@
 .interface{
-  height: 100vh;
+  min-height: 100vh;
   background-color: #e3f1fe;
 }
 
 .interface .inter-content{
       display: grid;
       grid-template-columns: 15% auto;
-      padding: 2rem 2rem 0 0;
-      height: 86%;
+      padding: 3rem 3rem 0 0;
      
+     
+}
+
+.hamburger{
+  display: none;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+
+
+/* Responsive */
+@media (max-width: 1176px) {
+    
+ .interface .inter-content{
+  grid-template-columns: auto;
+ }
+
+ .hamburger{
+  display: block;
+}
+
+.interface .inter-content{
+  padding: 1.5rem;
+}
 }

@@ -5,10 +5,12 @@ import { MdDashboard } from "react-icons/md";
 import { PiPottedPlantFill } from "react-icons/pi";
 import { MdContactSupport } from "react-icons/md";
 import { MdOutlineSupportAgent } from "react-icons/md";
-function Left() {
+function Left({showSideBar,setShowSideBar}) {
   return (
-    <div className='left'>
-        <div className='user'>
+    <div className={`left ${showSideBar ? 'show-sidebar' : ''}`}>
+      <header>
+     
+      <div className='user'>
             <img src={userImage} alt="" />
             <h5>Ram Mohan</h5>
             <small>rammohan2@gmail.com</small>
@@ -22,9 +24,12 @@ function Left() {
                 <li><MdOutlineSupportAgent />Support</li>
             </ul>
         </div>
+      </header>
+        
       <div>
         <h5>Logout</h5>
       </div>
+
     </div>
   )
 }
