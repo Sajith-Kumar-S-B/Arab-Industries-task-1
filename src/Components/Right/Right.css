@@ -13,6 +13,7 @@
 .right .right-header h2{
     font-size: 20px;
     letter-spacing: 1.2px;
+    line-height: 1px;
 }
 .right-header .plan{
     display: flex;
@@ -49,6 +50,8 @@
     grid-template-columns: repeat(3,1fr);
     column-gap: 4rem;
     padding: 2rem 0;
+    height: fit-content;
+
 }
 
 .right .right-content .rowone .basic{
@@ -86,14 +89,14 @@
 
 .basic h4{
     font-size: 25px;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: .2rem;
     margin-bottom: .5rem;
 }
 
 .standard h4{
     font-size: 25px;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: .2rem;
 
     margin-bottom: .5rem;
@@ -101,7 +104,7 @@
 
 .premium h4{
     font-size: 25px;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: .2rem;
 
     margin-bottom: .5rem;
@@ -199,7 +202,7 @@ button .arrow {
   .basic-title{
     width: 100%;
     border-bottom: 2px solid #ddd;
-    margin-bottom: 1rem;
+  
   }
 
 
@@ -336,6 +339,7 @@ button .arrow {
     grid-template-columns: repeat(2,1fr);
     column-gap: 2rem;
     padding: 2rem 0;
+   height: fit-content;
 
 }
 
@@ -343,23 +347,95 @@ button .arrow {
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 10px;
+   display: grid;
+   grid-template-columns: 40% auto;
+ column-gap: 1rem;
+}
+
+
+
+
+.starter .starter-title .badge{
+    background-color:#c6ff8e;
+    font-size: 9px;
+    padding: .3rem .5rem;
+    border-radius: 50px;
+
 
 }
 
+.enterprise .starter-title .badge{
+    background-color:#85b1f3;
+    font-size: 9px;
+    padding: .3rem .5rem;
+    border-radius: 50px;
+
+
+}
+.enterprise .starter-title button{
+    background-color: #85b1f3;
+
+}
+
+ .starter-title button{
+    background-color: #c6ff8e;
+    color: #000;
+    border: none;
+    font-size: 9px;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.starter-title h2{
+   margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+.starter-title .text{
+    font-size: 10px;
+    margin-bottom: 1rem;
+
+}
+
+.starter-feature{
+    width: 100%;
+    display: inline-flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.starter-feature .feature-content{
+    width: 100%;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    gap: 1rem;
+    font-size: 10px;
+    margin-bottom: .5rem;
+}
 
 .right .right-content .rowtwo .enterprise{
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 10px;
-
+    display: grid;
+    grid-template-columns: 40% auto;
+  column-gap: 1rem;
 }
 
-.right .right-content .rowtwo .feature{
+/* .right .right-content .rowtwo .feature{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-}
+} */
 
 @media (max-width: 1176px) {
 
