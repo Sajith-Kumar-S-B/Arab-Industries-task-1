@@ -1,0 +1,21 @@
+.side-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.side-icon .notification{
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(8, 149, 230);
+}
+
+.side-icon .add{
+    color: #a536c7;
+   background-color: #ccc;
+   padding: 3px;
+   border-radius: 10px;
+}

@@ -96,7 +96,7 @@ function Right() {
                         <small className='feature-content'><PiUserLight /> Upto 25 users</small>
                     <small className='feature-content'><TiCloudStorageOutline />Up to 25 gb storage</small>
                     <small className='feature-content'><AiOutlineMail />Email Support</small>
-                    <small className='feature-content'><LiaCheckDoubleSolid style={{fontSize:'25px',marginTop:'-5px'}} />Basics of Documents,Task flow,Voting,Accounting,Banking,Notes,Investor, Director and Team Management Included</small>
+                    <small className='feature-content'><LiaCheckDoubleSolid style={{fontSize:'25px',marginTop:'-5px'}} />Basics of Documents,Task flow,Voting,Accounting,Banking,Notes, <br />Investor, Director and Team Management Included</small>
 
                         </div>
                    
@@ -119,7 +119,11 @@ function Right() {
                         </div>
             </div>
         </div>
+        <div className='condition'>
+        <small>*some unique features are provided as add-on with individual plan for each feature</small>
     </div>
+    </div>
+   
     </div>
   )
 }

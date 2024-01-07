@@ -5,6 +5,7 @@ import { MdDashboard } from "react-icons/md";
 import { PiPottedPlantFill } from "react-icons/pi";
 import { MdContactSupport } from "react-icons/md";
 import { MdOutlineSupportAgent } from "react-icons/md";
+import { FaPowerOff } from "react-icons/fa6";
 function Left({showSideBar,setShowSideBar}) {
   return (
     <div className={`left ${showSideBar ? 'show-sidebar' : ''}`}>
@@ -17,17 +18,18 @@ function Left({showSideBar,setShowSideBar}) {
         </div>
         <div className='options'>
             <ul>
-                <li><MdDashboard />Dashboard</li>
-                <li><PiPottedPlantFill />Perks</li>
-                <li><i className="fa-solid fa-puzzle-piece"></i>Addons</li>
-                <li><MdContactSupport />FAQ</li>
-                <li><MdOutlineSupportAgent />Support</li>
+                <li><MdDashboard className='icon' />Dashboard</li>
+                <li><PiPottedPlantFill className='icon' />Perks</li>
+                <li><i className="fa-solid fa-puzzle-piece icon"></i>Addons</li>
+                <li><MdContactSupport className='icon' />FAQ</li>
+                <li><MdOutlineSupportAgent className='icon' />Support</li>
             </ul>
         </div>
       </header>
         
-      <div>
+      <div className='logout'>
         <h5>Logout</h5>
+        <FaPowerOff />
       </div>
 
     </div>
